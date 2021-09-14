@@ -96,3 +96,50 @@
   </tfoot>
  </table>
  ```
+
+
+ ## 单元格的合并
+
+ ### 行合并(rowspan)
+
+ 行合并: 将纵向的N个单元格合并
+
+ ```<td rowspan="跨域的行数"></td>```
+
+ ```
+ <table>
+  <tr>
+   <td>姓名：</td>
+   <td>小明</td>
+  </tr>
+  <tr>
+   <td rowspan="2">喜欢水果:</td>
+   <td>苹果</td>
+  </tr>
+  <tr>
+   <td>香蕉</td>
+  </tr>
+ </table>
+ ```
+
+ ### 列合并
+
+ 将横向的N个单元格合并
+
+ ```<td colspan="跨域的列数"></td>```
+
+ ```
+ <table>
+  <tr>
+    <td colspan="2">前端开发技术</td>
+  </tr>
+  <tr>
+   <td>HTML</td>
+   <td>CSS</td>
+  </tr>
+  <tr>
+   <td>JavaScipt</td>
+   <td>jQuery</td>
+  </tr>
+ </table>
+ ```
