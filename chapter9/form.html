@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Document</title>
+         <script>
+                  window.onload=function(){
+                    document.getElementById("button").onclick=function(){
+                             alert("hello");
+                    };
+                  };
+         </script>
+</head>
+<body>
+         <form >
+                 <input type="text" value="这是一个单行文本" />
+                 <select >
+                     <option value="HTML">HTML</option>
+                     <option value="CSS" >CSS</option>
+                     <option value="JavaScript">JavaScript</option>     
+                 </select> 
+         </form>
+
+         <h1>单行文本框</h1>
+         <form action="">
+
+                <input type="text" />
+                <input type="text" value="默认值" />
+
+                <input type="text" value="size为20" size="20" />
+                <input type="text" value="size为10" size="10">
+
+                <input type="text" value="没有设置最大字符长度" />
+                <input type="text" value="设置最大字符长度3" maxlength="3" />
+         </form>
+
+         <h1>密码文本框</h1>
+         <form action="">
+                  <input type="password" />
+         </form>
+
+         <h1>单选框</h1>
+         <form action="">
+                  <input type="radio" name="gender" value="gentleman"/>男
+                  <input type="radio" name="gender" value="lady">女
+
+         </form>
+
+         <h1>复选框</h1>
+         <form action="">
+                  <input type="checkbox" name="fruit" value="apple" />苹果
+                  <input type="checkbox" name="fruit" value="orange">橙子
+                  <input type="checkbox" name="fruit" value="berrw">梅子
+         </form>
+
+         <h1>按钮</h1>
+
+         <form action="">
+                  <input type="button" value="普通按钮" id="button" />
+                  <input type="submit" value="提交按钮" />
+                  <input type="reset" value="清除按钮"/>
+         </form>
+
+
+</body>
+</html>
