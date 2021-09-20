@@ -71,4 +71,39 @@
 
 ```<input  type="reset" value="清除按钮"/>```
 
+### 多行文本框
+
+不同于单行文本框，多行文本框可以输入多行文本。
+
+```<textarea rows="行数" cols="列数" value="取值">默认内容</textarea>```
+
+多行文本框的默认显示文本是在标签对的内部设置，不是在value属性中设置的。
+
+```
+<form>
+ 个人简介: <br/>
+ <textarea rows="5" cols="20">请你介绍一下你自己</textarea>
+</form>
+```
+
+### 下拉列表
+
+下拉列表是由select和option标签配合使用来表示的。
+
+```
+<select>
+  <option>选项内容</option>
+  ......
+  <option>选项内容</option>
+</select>
+```
+
+select标签常用的属性有连个
+
+multiple:设置下拉列表可以选择多项。
+
+size:设置下拉列表显示几个列表项，取值为整数。
+
+
+
 
